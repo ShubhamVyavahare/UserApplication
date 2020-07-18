@@ -1,0 +1,18 @@
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.header {
+    background-color: blue;
+}
+
+.header a.appName {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}

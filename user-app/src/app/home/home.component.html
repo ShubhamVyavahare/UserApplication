@@ -1,0 +1,15 @@
+<div>
+    <app-header></app-header>
+    <div>
+        <mat-sidenav-container class="example-container">
+            <mat-sidenav mode="side" opened>
+                <br><br>
+                <button mat-raised-button class="buttonWidth" onclick="window.location.href='/'">List User</button><br><br>
+                <button mat-raised-button class="buttonWidth" onclick="window.location.href='/create-user'">Create User</button>
+            </mat-sidenav>
+            <mat-sidenav-content>
+                <router-outlet></router-outlet>
+            </mat-sidenav-content>
+        </mat-sidenav-container>
+    </div>
+</div>
